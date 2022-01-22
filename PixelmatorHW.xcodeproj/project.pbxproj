@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		488E3920279AF72B00504EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E391F279AF72B00504EF4 /* AppDelegate.swift */; };
 		488E3922279AF72B00504EF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E3921279AF72B00504EF4 /* SceneDelegate.swift */; };
-		488E3924279AF72B00504EF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E3923279AF72B00504EF4 /* ViewController.swift */; };
 		488E3927279AF72B00504EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488E3925279AF72B00504EF4 /* Main.storyboard */; };
 		488E3929279AF72D00504EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488E3928279AF72D00504EF4 /* Assets.xcassets */; };
 		488E392C279AF72D00504EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488E392A279AF72D00504EF4 /* LaunchScreen.storyboard */; };
+		488E3934279B0C2E00504EF4 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E3933279B0C2E00504EF4 /* PhotosCollectionViewCell.swift */; };
+		488E3936279B0FFB00504EF4 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E3935279B0FFB00504EF4 /* PhotosCollectionViewController.swift */; };
+		488E393A279C1C1700504EF4 /* PhotosNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E3939279C1C1700504EF4 /* PhotosNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		488E391C279AF72B00504EF4 /* PixelmatorHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelmatorHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488E391F279AF72B00504EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		488E3921279AF72B00504EF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		488E3923279AF72B00504EF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		488E3926279AF72B00504EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		488E3928279AF72D00504EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		488E392B279AF72D00504EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		488E392D279AF72D00504EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488E3933279B0C2E00504EF4 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		488E3935279B0FFB00504EF4 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		488E3939279C1C1700504EF4 /* PhotosNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		488E391E279AF72B00504EF4 /* PixelmatorHW */ = {
 			isa = PBXGroup;
 			children = (
+				488E3939279C1C1700504EF4 /* PhotosNavigationController.swift */,
 				488E391F279AF72B00504EF4 /* AppDelegate.swift */,
 				488E3921279AF72B00504EF4 /* SceneDelegate.swift */,
-				488E3923279AF72B00504EF4 /* ViewController.swift */,
 				488E3925279AF72B00504EF4 /* Main.storyboard */,
 				488E3928279AF72D00504EF4 /* Assets.xcassets */,
 				488E392A279AF72D00504EF4 /* LaunchScreen.storyboard */,
 				488E392D279AF72D00504EF4 /* Info.plist */,
+				488E3933279B0C2E00504EF4 /* PhotosCollectionViewCell.swift */,
+				488E3935279B0FFB00504EF4 /* PhotosCollectionViewController.swift */,
 			);
 			path = PixelmatorHW;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488E3924279AF72B00504EF4 /* ViewController.swift in Sources */,
+				488E3934279B0C2E00504EF4 /* PhotosCollectionViewCell.swift in Sources */,
 				488E3920279AF72B00504EF4 /* AppDelegate.swift in Sources */,
+				488E3936279B0FFB00504EF4 /* PhotosCollectionViewController.swift in Sources */,
+				488E393A279C1C1700504EF4 /* PhotosNavigationController.swift in Sources */,
 				488E3922279AF72B00504EF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
